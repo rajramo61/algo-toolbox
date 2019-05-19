@@ -1,3 +1,4 @@
-a = int(input("Enter first number a = "))
-b = int(input("Enter second number b = "))
-print(a+b)
+#python3
+numbers_with_space = input()
+a, b = numbers_with_space.split()
+print(int(a)+int(b))
